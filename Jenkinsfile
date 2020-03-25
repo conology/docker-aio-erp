@@ -1,5 +1,5 @@
 node {
-   
+    /*
     def customImage
         
     stage ('Checkout'){
