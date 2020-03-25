@@ -1,5 +1,5 @@
 node {
-    /*
+    
     def customImage
         
     stage ('Checkout'){
@@ -13,7 +13,7 @@ node {
     stage ('Deploy') {
         
         sh 'echo Deploying Env'
-        sh 'docker run -i -p 8080:80 axelor/aio-erp'  
+        sh 'docker-compose up -d --build'
     }
     /*
     stage ('Configure') {
