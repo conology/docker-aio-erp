@@ -13,7 +13,7 @@ node {
     stage ('Deploy') {
         
         sh 'echo Deploying Env'
-        sh 'docker run -it -p 8080:80 axelor/aio-erp'  
+        sh 'docker run -i -p 8080:80 axelor/aio-erp'  
     }
     /*
     stage ('Configure') {
